@@ -9,7 +9,7 @@ b = 2;
 
 % 分割區間數
 n = 5;
-h = (b - a) / (2*n);
+h = (b - a) / (2*n);  % h=0.1
 x = linspace(a, b, 2*n+1);
 
 % 1. Composite Trapezoidal Rule
